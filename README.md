@@ -1,4 +1,6 @@
-# BlastThunder ⚡💥
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:1a0000,50:ff4500,100:1a0000&height=220&section=header&text=BlastThunder&fontSize=75&fontColor=ffffff&animation=twinkling&fontAlignY=35&desc=Autonomous%20Reality%20Engine&descAlignY=58&descSize=22&descColor=ffb347" alt="BlastThunder"/>
+</p>
 
 > **⚖️ License Notice:** This is a **source-available** research project licensed under **PolyForm Noncommercial 1.0.0**, not a permissive open-source license. Personal, educational, and research use only. **Commercial use is strictly prohibited without a separate paid license.** See [`LICENSE`](./LICENSE) for full terms, or contact **@Tankist-edge-tech** for commercial licensing inquiries.
 
