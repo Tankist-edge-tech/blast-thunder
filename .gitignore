@@ -1,1 +1,23 @@
-.aider*
+# Build directories
+build/
+CMakeFiles/
+CMakeCache.txt
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Object files and executables
+*.o
+*.obj
+*.exe
+
+# IDEs
+.vs/
+.vscode/
+
+# Logs and Data
+*.log
+data/
