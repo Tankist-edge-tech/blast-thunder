@@ -1,5 +1,50 @@
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:1a0000,50:ff4500,100:1a0000&height=220&section=header&text=BlastThunder&fontSize=75&fontColor=ffffff&animation=twinkling&fontAlignY=35&desc=Autonomous%20Reality%20Engine&descAlignY=58&descSize=22&descColor=ffb347" alt="BlastThunder"/>
+  <img src="assets/logo.png" alt="Ouro Logo" width="1024" height="1024"/>
+</p>
+
+<p align="center">
+<svg xmlns="http://www.w3.org/2000/svg" width="850" height="220" viewBox="0 0 850 220">
+  <defs>
+    <linearGradient id="edgyGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#000000" stop-opacity="0"/>
+      <stop offset="15%" stop-color="#000000" stop-opacity="0"/>
+      <stop offset="25%" stop-color="#FF00FF" stop-opacity="1"/>
+      <stop offset="35%" stop-color="#FF0033" stop-opacity="1"/>
+      <stop offset="45%" stop-color="#FFFFFF" stop-opacity="1"/>
+      <stop offset="55%" stop-color="#00FFFF" stop-opacity="1"/>
+      <stop offset="65%" stop-color="#FF00FF" stop-opacity="1"/>
+      <stop offset="75%" stop-color="#000000" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="0"/>
+      <animateTransform attributeName="gradientTransform" type="translate" values="-1 0; 1 0" dur="4s" repeatCount="indefinite"/>
+      <animateTransform attributeName="gradientTransform" type="rotate" additive="sum" values="0 0.5 0.5; 90 0.5 0.5; 0 0.5 0.5" keyTimes="0; 0.5; 1" dur="12s" repeatCount="indefinite" calcMode="spline" keySplines="0.42 0 0.58 1; 0.42 0 0.58 1"/>
+    </linearGradient>
+    <linearGradient id="subtitleGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00FFFF" stop-opacity="0"/>
+      <stop offset="40%" stop-color="#FFFFFF" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#FFFFFF" stop-opacity="1"/>
+      <stop offset="60%" stop-color="#00FFFF" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#00FFFF" stop-opacity="0"/>
+      <animateTransform attributeName="gradientTransform" type="translate" values="-1 0; 1 0" dur="9s" repeatCount="indefinite"/>
+      <animateTransform attributeName="gradientTransform" type="rotate" additive="sum" values="0 0.5 0.5; 90 0.5 0.5; 0 0.5 0.5" keyTimes="0; 0.5; 1" dur="12s" repeatCount="indefinite" calcMode="spline" keySplines="0.42 0 0.58 1; 0.42 0 0.58 1"/>
+    </linearGradient>
+    <filter id="fluidGlitch" x="-15%" y="-15%" width="130%" height="130%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.02 0.03" numOctaves="3" seed="42" result="fluidNoise"/>
+      <feDisplacementMap in="SourceGraphic" in2="fluidNoise" scale="14" xChannelSelector="R" yChannelSelector="G" result="fluidDisplaced"/>
+      <feTurbulence type="fractalNoise" baseFrequency="0.1 0.2" numOctaves="1" seed="5" result="glitchNoise"/>
+      <feDisplacementMap in="fluidDisplaced" in2="glitchNoise" scale="4" xChannelSelector="R" yChannelSelector="G"/>
+    </filter>
+  </defs>
+  <g filter="url(#fluidGlitch)">
+    <text x="50%" y="90" text-anchor="middle" font-family="Consolas, Monaco, 'Courier New', monospace" font-size="40" font-weight="700" letter-spacing="2" fill="none" stroke="url(#edgyGradient)" stroke-width="0.8">BLAST THUNDER
+      <animateTransform attributeName="transform" type="translate" additive="sum" values="0 0; 4 1; 0 4; -4 1; 0 0" keyTimes="0; 0.25; 0.5; 0.75; 1" dur="6s" repeatCount="indefinite" calcMode="spline" keySplines="0.42 0 0.58 1; 0.42 0 0.58 1; 0.42 0 0.58 1; 0.42 0 0.58 1"/>
+    </text>
+  </g>
+  <g filter="url(#fluidGlitch)">
+    <text x="50%" y="140" text-anchor="middle" font-family="Consolas, Monaco, 'Courier New', monospace" font-size="14" font-weight="600" letter-spacing="6" fill="none" stroke="url(#subtitleGradient)" stroke-width="0.8">Autonomous Reality Engine
+      <animateTransform attributeName="transform" type="translate" additive="sum" values="0 0; 2 -2; 0 2; -2 -1; 0 0" keyTimes="0; 0.25; 0.5; 0.75; 1" dur="7s" repeatCount="indefinite" calcMode="spline" keySplines="0.42 0 0.58 1; 0.42 0 0.58 1; 0.42 0 0.58 1; 0.42 0 0.58 1"/>
+    </text>
+  </g>
+</svg>
 </p>
 
 > **⚖️ License Notice:** This is a **source-available** research project licensed under **PolyForm Noncommercial 1.0.0**, not a permissive open-source license. Personal, educational, and research use only. **Commercial use is strictly prohibited without a separate paid license.** See [`LICENSE`](./LICENSE) for full terms, or contact **@Tankist-edge-tech** for commercial licensing inquiries.
